@@ -1,0 +1,4 @@
+gogs/*
+!gogs/custom
+!gogs/.sandstorm
+gogs/.sandstorm/.vagrant
