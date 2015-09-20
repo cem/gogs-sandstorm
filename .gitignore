@@ -1,4 +1,3 @@
-gogs/*
-!gogs/custom
-!gogs/.sandstorm
-gogs/.sandstorm/.vagrant
+/.sandstorm/.vagrant
+/build
+/gogs

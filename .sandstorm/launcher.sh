@@ -36,6 +36,6 @@ fi
 cd /var/gogs
 export USER=gogsuser
 export HOME=/var/gogs/home
-/opt/app/gogs web
+/opt/app/gogs/gogs web
 
 exit 0
