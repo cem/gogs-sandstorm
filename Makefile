@@ -2,7 +2,7 @@ SRCDIR = build/src/github.com/gogits/gogs
 ROOTDIR = $(PWD)
 OURGOPATH = $(ROOTDIR)/build
 
-all : gogs
+all : gogs/gogs
 
 $(SRCDIR) :
 	rm -rf build ; \
@@ -14,7 +14,7 @@ $(SRCDIR) :
 update : $(SRCDIR)
 	GOPATH="$(OURGOPATH)" go get -u -tags "sqlite" github.com/gogits/gogs
 
-gogs : $(SRCDIR) custom scripts/build.sh
+gogs/gogs : $(SRCDIR) custom scripts/build.sh
 	rm -rf gogs ; ./scripts/build.sh && cp -r custom/ gogs/custom
 
 clean :
