@@ -1,3 +1,4 @@
+*.spk
 /.sandstorm/.vagrant
 /build
 /gogs
