@@ -9,6 +9,7 @@ $(SRCDIR) :
 	mkdir -p $(SRCDIR) ; \
 	cd $(SRCDIR)/.. ; \
 	git clone https://github.com/cem/gogs gogs ; \
+	find . -type l -delete ; \
 	GOPATH="$(OURGOPATH)" go get -tags "sqlite" github.com/gogits/gogs
 
 update : $(SRCDIR)

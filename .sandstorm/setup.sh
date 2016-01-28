@@ -23,5 +23,6 @@ set -euo pipefail
 # appropriate for your application.
 
 export DEBIAN_FRONTEND=noninteractive
+apt-get update
 apt-get install -y git
 exit 0
