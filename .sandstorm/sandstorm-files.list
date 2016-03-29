@@ -70,6 +70,7 @@ opt/app/gogs/public/fonts/octicons.woff
 opt/app/gogs/public/img/404.png
 opt/app/gogs/public/img/500.png
 opt/app/gogs/public/img/avatar_default.jpg
+opt/app/gogs/public/img/emoji/bangbang.png
 opt/app/gogs/public/img/favicon.png
 opt/app/gogs/public/img/gogs-lg.png
 opt/app/gogs/public/img/slack.png

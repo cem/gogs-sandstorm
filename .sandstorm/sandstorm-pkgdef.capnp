@@ -19,9 +19,9 @@ const pkgdef :Spk.PackageDefinition = (
 
     appTitle = (defaultText = "Gogs"),
 
-    appVersion = 0,  # Increment this for every release.
+    appVersion = 1,  # Increment this for every release.
 
-    appMarketingVersion = (defaultText = "0.6.13.0918 Beta"),
+    appMarketingVersion = (defaultText = "0.8.23.0126"),
     # Human-readable representation of appVersion. Should match the way you
     # identify versions of your app in documentation and marketing.
 
@@ -63,7 +63,7 @@ const pkgdef :Spk.PackageDefinition = (
       shortDescription = (defaultText = "Git server and interface"),
 
       screenshots = [
-        (width = 1002, height = 596, png = embed "screenshot.png")
+        (width = 1150, height = 800, png = embed "screenshot.png")
       ],
 
       #changeLog = (defaultText = embed "CHANGELOG.md"),
