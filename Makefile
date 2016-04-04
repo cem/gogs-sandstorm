@@ -10,7 +10,7 @@ $(SRCDIR) :
 	cd $(SRCDIR)/.. ; \
 	git clone https://github.com/cem/gogs gogs ; \
 	cd gogs ; \
-	git checkout sandstorm2 \
+	git checkout sandstorm2 ; \
 	cd .. ; \
 	find . -type l -delete ; \
 	GOPATH="$(OURGOPATH)" go get -tags "sqlite" github.com/gogits/gogs

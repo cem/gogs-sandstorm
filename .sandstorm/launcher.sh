@@ -29,8 +29,8 @@ set -euo pipefail
 # By default, this script does nothing.  You'll have to modify it as
 # appropriate for your application.
 
-if [ ! -d /var/gogs ]; then
-    mkdir /var/gogs
+if [ ! -d /var/gogs/home ]; then
+    mkdir -p /var/gogs/home
 fi
 
 cd /var/gogs
