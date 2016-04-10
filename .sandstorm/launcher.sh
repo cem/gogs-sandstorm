@@ -29,13 +29,19 @@ set -euo pipefail
 # By default, this script does nothing.  You'll have to modify it as
 # appropriate for your application.
 
+export USER=gogsuser
+export HOME=/var/gogs/home
+export GIT_AUTHOR_NAME="gogs"
+export GIT_AUTHOR_EMAIL="gogs@localhost"
+export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+
+
 if [ ! -d /var/gogs/home ]; then
     mkdir -p /var/gogs/home
 fi
 
 cd /var/gogs
-export USER=gogsuser
-export HOME=/var/gogs/home
 /opt/app/gogs/gogs web
 
 exit 0
