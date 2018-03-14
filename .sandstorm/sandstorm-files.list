@@ -61,6 +61,7 @@ opt/app/gogs/public/assets/octicons-4.3.0/octicons.woff2
 opt/app/gogs/public/css/gogs.css
 opt/app/gogs/public/css/semantic-2.2.13.min.css
 opt/app/gogs/public/css/themes/default/assets/fonts/icons.woff2
+opt/app/gogs/public/img/404.png
 opt/app/gogs/public/img/dingtalk.png
 opt/app/gogs/public/img/discord.png
 opt/app/gogs/public/img/favicon.png
